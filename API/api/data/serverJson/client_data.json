@@ -1,0 +1,254 @@
+[
+    {
+        "client_email": "owes@gmail.com",
+        "client_name": "martin stevens",
+        "client_username": "BigPapaMirtin",
+        "client_description": "i am python student in my final year of my studies",
+        "client_age": "19",
+        "client_profile": "Student",
+        "client_location": "SA,Durban",
+        "client_password": "46344dsdfbnj3",
+        "client_nationality": "South African",
+        "client_profile_image": "f5b004c56c4048b881e3be5478db94e2.png",
+        "client_languages": [],
+        "client_id": "311874bbc36a4cadaf997e1866873ec1",
+        "client_conversation_ai": [],
+        "organisation_recommendation": [
+            {
+                "match_id": "f1a218e8-0c63-4b7e-b100-5e60c4cffe7d",
+                "match_duration": "2025-08-28 14:23:40",
+                "recommendation": [
+                    {
+                        "_id": "e6dd692073c64f409d6e569238920ed7",
+                        "request_id": "bbe763fa-4b85-42c1-976d-fa53e5c5ae16",
+                        "confidence_score": 0.75,
+                        "reason": "The client's Python programming skills make them a good fit for an organisation looking for someone who can create a website, as Python is often used in web development."
+                    },
+                    {
+                        "_id": "e6dd692073c64f409d6e569238920ed7",
+                        "request_id": "a01243b9-4edf-4113-b7ea-aad7c00cb9f2",
+                        "confidence_score": 0.7,
+                        "reason": "As a final-year student, the client may have the skills required to create and maintain a company's data software, given the right support and direction."
+                    },
+                    {
+                        "_id": "e6dd692073c64f409d6e569238920ed7",
+                        "request_id": "d135fe70-eb53-4519-b102-0bfe6a8853df",
+                        "confidence_score": 0.65,
+                        "reason": "The client's programming background suggests potential ability to develop websites, which aligns with the organisation's request."
+                    },
+                    {
+                        "_id": "e6dd692073c64f409d6e569238920ed7",
+                        "request_id": "2f3865eb-6c9f-4287-af85-c34b4e9490cb",
+                        "confidence_score": 0.6,
+                        "reason": "The client's studies may have included data analysis components, making them a potential match for an organisation needing data analysis services."
+                    },
+                    {
+                        "_id": "fff4c9c6621e4ad983f281cb6bb50509",
+                        "request_id": "a50afad3-a135-4ce5-9864-06114451dca5",
+                        "confidence_score": 0.55,
+                        "reason": "The client's programming knowledge might be applicable to the creation of an e-commerce website, a skill that is in demand for marketing agencies."
+                    }
+                ]
+            },
+            {
+                "match_id": "b3900de5-592a-4b73-95d8-4bf767dca355",
+                "match_duration": "2025-08-28 14:26:14",
+                "recommendation": [
+                    {
+                        "error": "something went wrong:Invalid json output: Based on the client's profile, which indicates that they are a Python student in their final year of studies, the following matches are proposed:\n\n[\n  {\n    \"_id\": \"e6dd692073c64f409d6e569238920ed7\",\n    \"request_id\": \"a01243b9-4edf-4113-b7ea-aad7c00cb9f2\",\n    \"confidence_score\": 0.75,\n    \"reason\": \"Your background as a Python student suggests proficiency in programming, which is relevant to the request for someone who can create and maintain the company's data software.\"\n  },\n  {\n    \"_id\": \"e6dd692073c64f409d6e569238920ed7\",\n    \"request_id\": \"d135fe70-eb53-4519-b102-0bfe6a8853df\",\n    \"confidence_score\": 0.65,\n    \"reason\": \"As a student with Python skills, you may have the capabilities to develop a website, matching the organisation's request for a web developer.\"\n  },\n  {\n    \"_id\": \"e6dd692073c64f409d6e569238920ed7\",\n    \"request_id\": \"a50afad3-a135-4ce5-9864-06114451dca5\",\n    \"confidence_score\": 0.60,\n    \"reason\": \"Your programming studies could be beneficial in creating an e-commerce website, as requested by The Owen Blogger.\"\n  },\n  {\n    \"_id\": \"e6dd692073c64f409d6e569238920ed7\",\n    \"request_id\": \"2f3865eb-6c9f-4287-af85-c34b4e9490cb\",\n    \"confidence_score\": 0.55,\n    \"reason\": \"Given your studies, you might have the analytical skills required for data analysis, which is sought after by FlingFling.\"\n  }\n]\n\nNo other requests from the provided database seem to align with the client's Python programming skills or student status with a confidence score of 0.4 or higher. The requests for cooking skills, creating a robot, or other roles do not match the client's qualifications and therefore are not included.\n\nIf no further suitable matches are found in additional records not shown here, the following message would be returned:\n\n[\n  {\n    \"message\": \"Sorry, but we could not find any suitable matches based on your profile at this time.\"\n  }\n]\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE "
+                    }
+                ]
+            },
+            {
+                "match_id": "2ba0159f-3746-4561-970a-4dac35330394",
+                "match_duration": "2025-08-28 15:07:26",
+                "recommendation": [
+                    {
+                        "_id": "e6dd692073c64f409d6e569238920ed7",
+                        "request_id": "a01243b9-4edf-4113-b7ea-aad7c00cb9f2",
+                        "confidence_score": 0.85,
+                        "reason": "As a final year Python student, your skills in programming and potentially software development align well with the request for someone who can create and maintain the company's data software."
+                    },
+                    {
+                        "_id": "e6dd692073c64f409d6e569238920ed7",
+                        "request_id": "d135fe70-eb53-4519-b102-0bfe6a8853df",
+                        "confidence_score": 0.8,
+                        "reason": "Your academic background in Python suggests proficiency in web development, making you a suitable candidate for the request to create a website."
+                    },
+                    {
+                        "_id": "e6dd692073c64f409d6e569238920ed7",
+                        "request_id": "a50afad3-a135-4ce5-9864-06114451dca5",
+                        "confidence_score": 0.75,
+                        "reason": "Your studies in Python, which often include web frameworks, position you as a good match for the need to develop an e-commerce website."
+                    },
+                    {
+                        "_id": "e6dd692073c64f409d6e569238920ed7",
+                        "request_id": "2f3865eb-6c9f-4287-af85-c34b4e9490cb",
+                        "confidence_score": 0.7,
+                        "reason": "The mention of data analysis in the request suggests a need for skills that could be related to your Python studies, potentially indicating a match."
+                    }
+                ]
+            },
+            {
+                "match_id": "b49cc596-1f1c-469f-aaab-f465b256b4e7",
+                "match_duration": "2025-08-29 06:56:01",
+                "recommendation": [
+                    {
+                        "_id": "fff4c9c6621e4ad983f281cb6bb50509",
+                        "request_id": "a50afad3-a135-4ce5-9864-06114451dca5",
+                        "confidence_score": 0.65,
+                        "reason": "The client's programming skills as a Python student could be utilized in the creation of an e-commerce website, which is a request from The Owen Blogger organisation."
+                    }
+                ]
+            },
+            {
+                "match_id": "015c9eb3-726f-4cce-85f6-2514b43bf9a7",
+                "match_duration": "2025-08-29 08:01:21",
+                "recommendation": [
+                    {
+                        "_id": "84ab9395c6ad442fa21c0465848738a6",
+                        "request_id": "84dac8ff-7dc6-4f4a-b7c2-0ff2455d09a4",
+                        "confidence_score": 0.85,
+                        "reason": "Your studies in Python and your status as a student suggest proficiency in programming, making you a strong candidate for the software developer position requested by Tree House Interprise."
+                    },
+                    {
+                        "_id": "e6dd692073c64f409d6e569238920ed7",
+                        "request_id": "2f3865eb-6c9f-4287-af85-c34b4e9490cb",
+                        "confidence_score": 0.75,
+                        "reason": "Given your educational background in Python, you may possess the analytical skills required for the data analysis task requested by FlingFling, as data analysis often requires programming knowledge."
+                    },
+                    {
+                        "_id": "e6dd692073c64f409d6e569238920ed7",
+                        "request_id": "a01243b9-4edf-4113-b7ea-aad7c00cb9f2",
+                        "confidence_score": 0.65,
+                        "reason": "Your programming experience through Python studies could be applicable to creating and maintaining data software, as requested by FlingFling."
+                    },
+                    {
+                        "_id": "e6dd692073c64f409d6e569238920ed7",
+                        "request_id": "d135fe70-eb53-4519-b102-0bfe6a8853df",
+                        "confidence_score": 0.6,
+                        "reason": "As a student with knowledge of Python, a programming language commonly used in web development, you may be capable of creating a website, which aligns with FlingFling's request."
+                    },
+                    {
+                        "_id": "fff4c9c6621e4ad983f281cb6bb50509",
+                        "request_id": "a50afad3-a135-4ce5-9864-06114451dca5",
+                        "confidence_score": 0.55,
+                        "reason": "Your developing skills in Python could potentially be extended to create an e-commerce website, as sought by The Owen Blogger, although this may require additional knowledge in web frameworks and e-commerce platforms."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_email": "frvnkhsgzx@gmail.com",
+        "client_name": "Joseph banda",
+        "client_username": "Joesaph38",
+        "client_description": "i am student at malawi college of computer science in my final year Of a bachlaor's degree in python sciences\r\n",
+        "client_age": "23",
+        "client_profile": "Student",
+        "client_location": "Malawi,Dowa",
+        "client_gender": "Male",
+        "client_languages": "english",
+        "client_password": "12345787389urhr",
+        "client_nationality": "Malawian",
+        "client_profile_image": "cb1e3a4f6ef046bc8ae40b101abdd06f.png",
+        "client_id": "045dd6e6c36240339db92afd5daaea98",
+        "client_conversation_ai": []
+    },
+    {
+        "client_email": "Yfrvnk@yahoo.com",
+        "client_name": "Frank kwizigira",
+        "client_username": "frvnk34",
+        "client_description": "i am a data anaylist proffessor at the university of COM in SA durban and now looking forward to companies that are i need of me",
+        "client_age": "34",
+        "client_profile": "Job Seeker",
+        "client_location": "Malawi,Dowa",
+        "client_gender": "Male",
+        "client_languages": "english",
+        "client_password": "12345787389urhr",
+        "client_nationality": "Malawian",
+        "client_profile_image": "2de293ebc492439ab1c7203a348e3c8e.png",
+        "client_id": "7946e350eb4f42e6bccd1a61a56300ae",
+        "client_conversation_ai": [],
+        "organisation_recommendation": [
+            {
+                "match_id": "b3ca572b-ccb3-46f5-82ac-3658173d64d8",
+                "match_duration": "2025-08-28 08:34:51",
+                "recommendation": [
+                    {
+                        "_id": "fff4c9c6621e4ad983f281cb6bb50509",
+                        "request_id": "a50afad3-a135-4ce5-9864-06114451dca5",
+                        "confidence_score": 0.65,
+                        "reason": "The organisation is seeking someone who can create an e-commerce website, which may require a professional with a background in data analysis to understand user behavior and optimize the site's functionality. As a data analyst professor, your expertise could be beneficial in consulting on or managing such a project."
+                    }
+                ]
+            },
+            {
+                "match_id": "5bae72dc-5c44-46fe-a4c8-6a0c9d7ba686",
+                "match_duration": "2025-08-28 08:40:58",
+                "recommendation": [
+                    {
+                        "message": "Sorry, but we could not find any suitable matches based on your profile at this time."
+                    }
+                ]
+            },
+            {
+                "match_id": "baf612c5-757d-46e8-83c6-b88270036291",
+                "match_duration": "2025-08-29 09:38:58",
+                "recommendation": [
+                    {
+                        "_id": "e6dd692073c64f409d6e569238920ed7",
+                        "request_id": "a01243b9-4edf-4113-b7ea-aad7c00cb9f2",
+                        "confidence_score": 0.85,
+                        "reason": "Your experience as a data analyst professor at the university level is highly relevant to FlingFling's need for someone who can create and maintain their company's data software."
+                    },
+                    {
+                        "_id": "e6dd692073c64f409d6e569238920ed7",
+                        "request_id": "2f3865eb-6c9f-4287-af85-c34b4e9490cb",
+                        "confidence_score": 0.8,
+                        "reason": "As a data analysis expert, you would be well-suited to fulfill FlingFling's request for a client capable of performing data analysis."
+                    },
+                    {
+                        "_id": "e6dd692073c64f409d6e569238920ed7",
+                        "request_id": "d135fe70-eb53-4519-b102-0bfe6a8853df",
+                        "confidence_score": 0.4,
+                        "reason": "While your primary expertise is not in web development, your technical background might allow you to contribute to FlingFling's need for a website creator."
+                    },
+                    {
+                        "_id": "fff4c9c6621e4ad983f281cb6bb50509",
+                        "request_id": "a50afad3-a135-4ce5-9864-06114451dca5",
+                        "confidence_score": 0.45,
+                        "reason": "Although not a direct match, your technical skills could be adaptable to The Owen Blogger's requirement for someone to create an e-commerce website."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_email": "elia@gmail.com",
+        "client_name": "Elia",
+        "client_username": "Elia23",
+        "client_description": "i am a teacher  ",
+        "client_age": "23",
+        "client_profile": "Job Seeker",
+        "client_location": "Malawi,Dowa",
+        "client_gender": "Male",
+        "client_languages": "english",
+        "client_password": "12345787389urhr",
+        "client_nationality": "Malawian",
+        "client_profile_image": "C:\\Users\\student\\Desktop\\Goblin\\API\\api\\data/uploads\\84f03d0b39ac451884f2198808c716a5.jpg",
+        "client_id": "a2f6df0d0a5d4f0a8391691521033210",
+        "client_conversation_ai": [],
+        "organisation_recommendation": [
+            {
+                "match_id": "4c33dc7c-52dd-4de9-9d9e-86513f733ab7",
+                "match_duration": "2025-08-29 09:30:49",
+                "recommendation": [
+                    {
+                        "error": "something went wrong:Connection error."
+                    }
+                ]
+            }
+        ]
+    }
+]

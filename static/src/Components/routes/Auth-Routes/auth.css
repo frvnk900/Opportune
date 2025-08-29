@@ -1,0 +1,394 @@
+:root {
+  --primary-color: #1d87ff;
+  --primary-bg-color: rgb(243, 240, 240);
+  --opp-primary-color: orangered;
+  --secondary-color: #191a1b;
+  --font-size-base: 16px;
+  --input-field-color: rgba(199, 197, 197, 0.363);
+  --input-field-color-focus: #191a1b;
+  --form-input-field-width: 400px;
+  --form-input-field-hieght: 65px;
+  --web-fonts: Arial, Helvetica, sans-serif;
+  --box-shadow: 0px 4px 8px rgba(31, 30, 30, 0.418);
+  --opp-primary-color-focus: rgb(209, 62, 9);
+  --heavy-button-width: 300px;
+  --heavy-button-hieght: 70px;
+  --heavy-button-padding: 20px;
+  --field-fonts: Arial, Helvetica, sans-serif;
+
+  --icon-size: 48px;
+}
+.signup-container {
+  text-align: center;
+  justify-content: center;
+  width: 40%;
+  display: flex;
+  user-select: none;
+  transform: translateX(-50%);
+  left: 50%;
+  height: 90vh;
+  position: fixed;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 20px;
+  bottom: 2%;
+  box-shadow: var(--box-shadow);
+}
+.signup-container .signup-form ul {
+  list-style: none;
+}
+.signup-container .signup-form ul input {
+  width: 300px;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  border: none;
+  background-color: var(--input-field-color);
+  outline: none;
+  padding-left: 0.5cm;
+  border-radius: 10px;
+}
+
+.signup-container .signup-form ul input:focus {
+  background-color: #191a1b;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.signup-container .signup-form ul button {
+  width: 310px;
+  padding: 7px;
+  border: none;
+  outline: none;
+  background: var(--primary-color);
+  height: 40px;
+  font-size: 20px;
+  box-shadow: var(--box-shadow);
+  color: white;
+  border-radius: 10px;
+}
+.signup-container .signup-form ul li label {
+  background: var(--secondary-color);;
+  width: 300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  font-size: 17px;
+}
+.signup-container .signup-form ul #tandc {
+  color: var(--secondary-color);
+  padding-left: 0.3cm;
+}
+#error {
+  padding: 20px;
+  background-color: rgba(255, 0, 0, 0.247);
+  position: fixed;
+  left: 90%;
+  border-radius: 20px;
+  transform: translateX(-50%);
+  font-size: 30px;
+}
+.side-items {
+  justify-content: start;
+}
+.side-items h1 {
+  font-family: var(--web-fonts);
+  font-size: 35px;
+  color: var(--primary-color);
+}
+.side-items p {
+  font-size: 17px;
+  font-family: var(--web-fonts);
+  color: var(--secondary-color);
+}
+
+.signin-container {
+  text-align: center;
+  justify-content: center;
+  width: 40%;
+  display: flex;
+  user-select: none;
+  transform: translateX(-50%);
+  left: 50%;
+  height: 70vh;
+  position: fixed;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 20px;
+  bottom: 17%;
+  box-shadow: var(--box-shadow);
+}
+.signin-container .signin-form ul {
+  list-style: none;
+}
+.signin-container .signin-form ul li input {
+  width: 300px;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  border: none;
+  background-color: rgba(199, 197, 197, 0.363);
+  outline: none;
+  padding-left: 0.5cm;
+  border-radius: 10px;
+}
+.signin-container .signin-form ul li input:focus {
+  background-color: rgba(199, 197, 197, 0.363);
+  background-color: #191a1b;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.signin-container .signin-form ul li button {
+  width: 310px;
+  padding: 7px;
+  border: none;
+  outline: none;
+  background: var(--primary-color);
+  height: 40px;
+  font-size: 20px;
+  box-shadow: var(--box-shadow);
+  color: white;
+  border-radius: 10px;
+}
+.signin-container h1 {
+  font-family: var(--web-fonts);
+  font-size: 35px;
+  color: var(--primary-color);
+}
+
+.signin-container p {
+  color: rgb(206, 5, 5);
+  font-family: var(--web-fonts);
+  font-size: var(--font-size-base);
+}
+.side-items-signin h1 {
+  font-size: 20px;
+  font-style: italic;
+  color: var(--opp-primary-color);
+}
+.side-items-signin h2 {
+  font-size: 16px;
+  color: var(--secondary-color);
+  font-family: var(--web-fonts);
+}
+.side-items h2 {
+  font-size: 16px;
+  color: var(--secondary-color);
+  font-family: var(--web-fonts);
+}
+.side-items #slogan {
+  font-size: 20px;
+  font-style: italic;
+  color: var(--opp-primary-color);
+}
+
+/* client */
+.client-signup-container {
+  transform: translateX(-50%);
+  left: 46%;
+  position: fixed;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  width: 600px;
+  bottom: 6%;
+}
+.client-signup-container .client-signup-form {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 0.3fr 1fr;
+}
+.client-signup-container .client-signup-form ul {
+  justify-content: space-between;
+  list-style: none;
+  padding: 10px;
+  user-select: none;
+}
+.client-signup-container .client-signup-form .client-right-inputs {
+  background-color: var(--primary-bg-color);
+  padding: 30px;
+  height: 430px;
+  box-shadow: var(--box-shadow);
+  width: 300px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+.client-signup-container .client-signup-form .client-right-inputs li input {
+  width: 300px;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  border: none;
+  background-color: var(--input-field-color);
+  outline: none;
+  padding-left: 0.5cm;
+  border-radius: 10px;
+}
+.client-signup-container  .client-signup-form  .client-right-inputs  li  input:focus {
+  background-color: #191a1b;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.client-signup-container .client-signup-form .client-right-inputs li button {
+  width: 310px;
+  padding: 7px;
+  border: none;
+  outline: none;
+  background: var(--primary-color);
+  height: 40px;
+  font-size: 20px;
+  box-shadow: var(--box-shadow);
+  color: white;
+  border-radius: 10px;
+}
+.client-signup-container .client-signup-form .client-right-inputs li label {
+  background: var(--secondary-color);
+  width: 300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  font-size: 17px;
+}
+
+.client-signup-container .client-signup-form .client-left-inputs {
+  background-color: var(--primary-bg-color);
+  padding: 30px;
+  height: 430px;
+  box-shadow: var(--box-shadow);
+  width: 300px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+.client-signup-container .client-signup-form .client-left-inputs li textarea {
+  width: 300px;
+  height: 224px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  border: none;
+  border-top: 1cm;
+  background-color: var(--input-field-color);
+  outline: none;
+  padding-left: 0.5cm;
+  border-radius: 10px;
+}
+.client-signup-container  .client-signup-form  .client-left-inputs  li textarea::-webkit-scrollbar {
+  display: none;
+}
+.client-signup-container  .client-signup-form  .client-left-inputs  li textarea:focus {
+  background-color: rgba(199, 197, 197, 0.363);
+  background-color: #191a1b;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.client-signup-container  .client-signup-form  .client-left-inputs  li input{
+    width: 300px;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  border: none;
+  background-color: var(--input-field-color);
+  outline: none;
+  padding-left: 0.5cm;
+  border-radius: 10px;
+}
+.client-signup-container  .client-signup-form  .client-left-inputs  li input:focus{
+    background-color: #191a1b;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+ 
+.client-signup-container .client-signup-form .client-left-inputs .drop-down-client{
+display: flex;
+}
+.client-signup-container .client-signup-form .client-left-inputs .drop-down-client li select{
+    appearance: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    background-color: var(--input-field-color);
+    border: none;
+    padding: 10px;
+    font-family:  var(--web-fonts);
+    font-size: 17px;
+    color: var(--secondary-color);
+    cursor: pointer;
+    border-radius: 10px;
+    line-height: inherit;
+ 
+    position: relative;
+}
+.client-signup-container .client-signup-form .client-left-inputs .drop-down-client li select:focus{
+  background-color: var(--input-field-color-focus);
+  color: white;
+}
+
+.client-signin-container{
+    text-align: center;
+  justify-content: center;
+  width: 40%;
+  display: flex;
+  user-select: none;
+  transform: translateX(-50%);
+  left: 50%;
+  height: 70vh;
+  position: fixed;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 20px;
+  bottom: 17%;
+  box-shadow: var(--box-shadow);
+}
+.client-signin-container .client-signin-form ul{
+  list-style: none;
+}
+.client-signin-container .client-signin-form ul li input{
+    width: 300px;
+  height: 44px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  border: none;
+  background-color: rgba(199, 197, 197, 0.363);
+  outline: none;
+  padding-left: 0.5cm;
+  border-radius: 10px;
+}
+.client-signin-container .client-signin-form ul li input{
+    background-color: rgba(199, 197, 197, 0.363);
+  background-color: #191a1b;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.client-signin-container .client-signin-form ul li input:focus{
+  background-color: #191a1b;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.client-signin-container .client-signin-form ul li button{
+    width: 310px;
+  padding: 7px;
+  border: none;
+  outline: none;
+  background: var(--primary-color);
+  height: 40px;
+  font-size: 20px;
+  box-shadow: var(--box-shadow);
+  color: white;
+  border-radius: 10px;
+}
+.client-signin-container h2{
+  font-family: var(--web-fonts);
+  font-size: 35px;
+  color: var(--primary-color);
+}

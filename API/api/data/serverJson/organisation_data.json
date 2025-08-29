@@ -1,0 +1,274 @@
+[
+    {
+        "organisation_name": "The Owen Blogger",
+        "organisation_email": "Yfrvnk@yahoo.com",
+        "organisation_password": "123455679frsnk",
+        "organisation_phone": "093298493844",
+        "organisation_location": "Dowa,northen house",
+        "organisation_owner": "jesoph martin clinton",
+        "orgnaisation_service": "",
+        "orgnaisation_type": "marketing",
+        "organisation_logo": "",
+        "organisation_id": "fff4c9c6621e4ad983f281cb6bb50509",
+        "organisation_conversation_ai": [],
+        "organisation_client_requests": [
+            {
+                "request_id": "a50afad3-a135-4ce5-9864-06114451dca5",
+                "request_duration": "2025-08-26 21:53:34",
+                "request": "find me some that can create a ecormce website",
+                "recommendation": [
+                    {
+                        "client_id": "350f30bc4bc14e4ea7aa34aa402d9ec0",
+                        "confidence_score": 0.95,
+                        "reason": "The client is a senior JavaScript web developer and ML engineer, which implies a strong background in web development that is crucial for creating an e-commerce website."
+                    },
+                    {
+                        "client_id": "662ce61026bd4344ae2719272ada98bf",
+                        "confidence_score": 0.65,
+                        "reason": "The client has 13 years of experience as an AL engineer and a master's degree in Python advanced, which could be beneficial for backend development, though the match is not as strong for the primary requirement of web development."
+                    },
+                    {
+                        "client_id": "311874bbc36a4cadaf997e1866873ec1",
+                        "confidence_score": 0.4,
+                        "reason": "As a final-year Python student, the client may have some relevant skills for backend development, but lacks the experience necessary for a task as complex as creating an e-commerce website."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "organisation_name": "Agrelia",
+        "organisation_email": "agrelia@gmail.com",
+        "organisation_password": "123455679frsnk",
+        "organisation_phone": "093298493844",
+        "organisation_location": "Dowa,northen house",
+        "organisation_owner": "jesoph martin clinton",
+        "orgnaisation_service": "",
+        "orgnaisation_type": "Mental assistant",
+        "organisation_logo": "e8b86671b99f466ebc1c187e04fcbe47.png",
+        "organisation_id": "7b99f8714dbc4a59bf016f58c065207b",
+        "organisation_conversation_ai": []
+    },
+    {
+        "organisation_name": "SoftA",
+        "organisation_email": "softer@gmail.com",
+        "organisation_password": "123455679frsnk",
+        "organisation_phone": "12344567",
+        "organisation_location": "Dowa,northen house",
+        "organisation_owner": "jesoph martin clinton",
+        "orgnaisation_service": "",
+        "orgnaisation_type": "Housing",
+        "organisation_logo": "977bf0960c454039bf48e11e36600c8a.png",
+        "organisation_id": "88cf4141e66a4ce99cb7c68ecca41b4c",
+        "organisation_conversation_ai": []
+    },
+    {
+        "organisation_name": "FlingFling",
+        "organisation_email": "fling@gmail.com",
+        "organisation_password": "fling22",
+        "organisation_phone": "098327434",
+        "organisation_location": "blantyre",
+        "organisation_owner": "jesoph martin clinton",
+        "orgnaisation_service": "",
+        "orgnaisation_type": "Finance and Banking",
+        "organisation_logo": "efca75812ec349379418600058339861.png",
+        "organisation_id": "e6dd692073c64f409d6e569238920ed7",
+        "organisation_conversation_ai": [],
+        "organisation_client_requests": [
+            {
+                "request_id": "d135fe70-eb53-4519-b102-0bfe6a8853df",
+                "request_duration": "2025-08-28 00:12:12",
+                "request": "can find some one that can create a website\n",
+                "recommendation": [
+                    {
+                        "error": "something went wrong:'Input to PromptTemplate is missing variables {\\'\"message\"\\'}.  Expected: [\\'\"message\"\\', \\'database\\', \\'request\\', \\'services\\'] Received: [\\'request\\', \\'services\\', \\'database\\']\\nNote: if you intended {\"message\"} to be part of the string and not a variable, please escape it with double curly braces like: \\'{{\"message\"}}\\'.\\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT '"
+                    }
+                ]
+            },
+            {
+                "request_id": "fe08c6da-90d0-437b-9116-2ce253da68af",
+                "request_duration": "2025-08-28 00:19:08",
+                "request": "find me some one that can cook",
+                "recommendation": [
+                    {
+                        "message": "Sorry but I could not find any suitable matches. The client profiles primarily consist of individuals with expertise in computer science and data analysis, which do not align with the cooking skills required for the task."
+                    }
+                ]
+            },
+            {
+                "request_id": "587a77cb-3c9e-462d-9f99-ef1e259eea3a",
+                "request_duration": "2025-08-28 00:38:20",
+                "request": "can find some that can cook",
+                "recommendation": [
+                    {
+                        "client_id": "045dd6e6c36240339db92afd5daaea98",
+                        "confidence_score": 0.3,
+                        "reason": "The client is a student of computer science, which does not align with the needs of a finance and banking service, despite having some analytical skills."
+                    },
+                    {
+                        "client_id": "7946e350eb4f42e6bccd1a61a56300ae",
+                        "confidence_score": 0.45,
+                        "reason": "This client has experience as a data analyst professor, which may imply analytical skills useful in finance; however, there's no mention of specific financial domain experience."
+                    },
+                    {
+                        "client_id": "311874bbc36a4cadaf997e1866873ec1",
+                        "confidence_score": 0.2,
+                        "reason": "The client is a student with a focus on Python, which could be useful for data analysis in finance, but lacks the direct experience and profile required for the service."
+                    }
+                ]
+            },
+            {
+                "request_id": "2f3865eb-6c9f-4287-af85-c34b4e9490cb",
+                "request_duration": "2025-08-28 01:20:34",
+                "request": "hello can find a client that can do data analysis",
+                "recommendation": [
+                    {
+                        "client_id": "7946e350eb4f42e6bccd1a61a56300ae",
+                        "confidence_score": 0.95,
+                        "reason": "The client is a professional data analyst and professor with experience that aligns well with the data analysis needs in the Finance and Banking sector."
+                    },
+                    {
+                        "client_id": "045dd6e6c36240339db92afd5daaea98",
+                        "confidence_score": 0.6,
+                        "reason": "The client is in the final year of a Bachelor's degree in Python sciences, which may involve data analysis, and could be a good fit for an entry-level position."
+                    },
+                    {
+                        "client_id": "311874bbc36a4cadaf997e1866873ec1",
+                        "confidence_score": 0.55,
+                        "reason": "As a student specializing in Python, the client may have the foundational skills required for data analysis, though their experience level is likely entry-level."
+                    }
+                ]
+            },
+            {
+                "request_id": "a01243b9-4edf-4113-b7ea-aad7c00cb9f2",
+                "request_duration": "2025-08-28 04:37:03",
+                "request": "can find me some that can create and  maintain my companie's data software",
+                "recommendation": [
+                    {
+                        "client_id": "7946e350eb4f42e6bccd1a61a56300ae",
+                        "confidence_score": 0.75,
+                        "reason": "The client has experience as a data analyst professor, which implies a strong background in data analysis and potential ability to contribute to data software needs in the finance sector."
+                    },
+                    {
+                        "client_id": "045dd6e6c36240339db92afd5daaea98",
+                        "confidence_score": 0.65,
+                        "reason": "The client is a final-year student in Python sciences, which indicates familiarity with Python, a commonly used language in data software development. However, their lack of direct work experience slightly reduces the match strength."
+                    },
+                    {
+                        "client_id": "311874bbc36a4cadaf997e1866873ec1",
+                        "confidence_score": 0.6,
+                        "reason": "As a student in their final year of Python studies, this client may have the foundational skills necessary for data software tasks, but their student status and lack of specific experience in finance reduce the overall match score."
+                    }
+                ]
+            },
+            {
+                "request_id": "bbe763fa-4b85-42c1-976d-fa53e5c5ae16",
+                "request_duration": "2025-08-28 04:38:44",
+                "request": "find any one that can be able to create a website",
+                "recommendation": [
+                    {
+                        "client_id": "045dd6e6c36240339db92afd5daaea98",
+                        "confidence_score": 0.45,
+                        "reason": "The client is a computer science student, which implies familiarity with programming and potentially web development, but their specific experience with website creation is not clear."
+                    },
+                    {
+                        "client_id": "311874bbc36a4cadaf997e1866873ec1",
+                        "confidence_score": 0.4,
+                        "reason": "The client is studying Python, which could be beneficial for backend development, but there is no direct evidence of web development skills."
+                    },
+                    {
+                        "client_id": "7946e350eb4f42e6bccd1a61a56300ae",
+                        "confidence_score": 0.35,
+                        "reason": "The client is a data analyst professor, suggesting expertise in data analysis rather than web development, which does not align closely with the task of website creation."
+                    }
+                ]
+            },
+            {
+                "request_id": "af5be724-ab25-46d6-9217-6e2e4604eb2b",
+                "request_duration": "2025-08-28 04:40:16",
+                "request": "find some one that create a robot",
+                "recommendation": [
+                    {
+                        "client_id": "045dd6e6c36240339db92afd5daaea98",
+                        "confidence_score": 0.3,
+                        "reason": "The client is in their final year of a bachelor's degree in Python sciences, which may provide some foundational skills relevant to programming robots. However, there's no direct evidence of experience in robotics or its application in finance and banking."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "organisation_name": "Tree House Interprise.",
+        "organisation_email": "frankorg716@gmail.com",
+        "organisation_password": "fling22",
+        "organisation_phone": "099666248",
+        "organisation_location": "Dowa,northen house",
+        "organisation_owner": "mr joseph adrew",
+        "orgnaisation_service": "",
+        "orgnaisation_type": "Finance and Banking",
+        "organisation_logo": "604feac260f24e63bdcc32c140aba387.jpg",
+        "organisation_id": "84ab9395c6ad442fa21c0465848738a6",
+        "organisation_conversation_ai": [],
+        "organisation_client_requests": [
+            {
+                "request_id": "84dac8ff-7dc6-4f4a-b7c2-0ff2455d09a4",
+                "request_duration": "2025-08-28 22:10:21",
+                "request": "can find a softwera developer\n",
+                "recommendation": [
+                    {
+                        "client_id": "045dd6e6c36240339db92afd5daaea98",
+                        "confidence_score": 0.65,
+                        "reason": "The client is a final-year student in Python sciences, which may provide some relevant skills, but lacks direct experience in software development for finance and banking."
+                    },
+                    {
+                        "client_id": "7946e350eb4f42e6bccd1a61a56300ae",
+                        "confidence_score": 0.42,
+                        "reason": "The client is a data analyst professor with no mention of software development skills or experience in the finance and banking sector."
+                    },
+                    {
+                        "client_id": "311874bbc36a4cadaf997e1866873ec1",
+                        "confidence_score": 0.55,
+                        "reason": "The client is a Python student and may have some relevant coding skills, but there's no indication of experience in the finance and banking domain."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "organisation_name": "TakenoLab",
+        "organisation_email": "takeno@gmail.com",
+        "organisation_password": "123455679frsnk",
+        "organisation_phone": "099631425262",
+        "organisation_location": "Dowa,northen house",
+        "organisation_owner": "mr joseph adrew",
+        "orgnaisation_service": "",
+        "orgnaisation_type": "Education",
+        "organisation_logo": "",
+        "organisation_id": "d778634999c14892a2b38b5f95f45821",
+        "organisation_conversation_ai": [],
+        "organisation_client_requests": [
+            {
+                "request_id": "d59c241b-50e6-4701-82d2-7f77a7d597ac",
+                "request_duration": "2025-08-29 00:23:24",
+                "request": "find me some one that can create ecormece webiste",
+                "recommendation": [
+                    {
+                        "client_id": "311874bbc36a4cadaf997e1866873ec1",
+                        "confidence_score": 0.4,
+                        "reason": "The client is a student in their final year studying Python, which may imply some programming ability but lacks specific mention of web development skills necessary for creating an e-commerce website."
+                    },
+                    {
+                        "client_id": "045dd6e6c36240339db92afd5daaea98",
+                        "confidence_score": 0.35,
+                        "reason": "This client is also a student with a focus on Python sciences but does not demonstrate any specific experience in web development or e-commerce solutions."
+                    },
+                    {
+                        "client_id": "7946e350eb4f42e6bccd1a61a56300ae",
+                        "confidence_score": 0.25,
+                        "reason": "The client is a data analyst professor and does not have a profile that suggests expertise in web development or the creation of e-commerce websites."
+                    }
+                ]
+            }
+        ]
+    }
+]

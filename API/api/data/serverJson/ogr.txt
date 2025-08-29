@@ -1,0 +1,38 @@
+[
+  {
+    "organisation_id": "",
+    "organisation_email": "",
+    "organisation_phone": "",
+    "organisation_name": "",
+    "organisation_location": "",
+    "organisation_owner": "",
+    "orgnaisation_type": "",
+    "organisation_urls": [],
+    "organisation_service": [],
+    "organisation_logo": "",
+    "organisation_cover_image": "",
+    "organisation_conversation_ai": [
+      {
+        "conversation_id": "",
+        "image": "",
+        "audio": "",
+        "question": "",
+        "response": ""
+      }
+    ],
+    "organisation_client_requests": [
+      {
+        "request_id": "auto generate",
+        "request duratuon":""
+        "request": "",
+        "recommendation": [
+        {
+    "client_id": "abc123",
+    "confidence_score": 0.91,
+    "reason": "Client has strong AI and automation skills."
+  }
+        ]
+      }
+    ]
+  }
+]

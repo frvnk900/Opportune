@@ -1,0 +1,30 @@
+[
+  {
+    "client_id": "",
+    "client_email": "",
+    "client_description": "",
+    "client_profile": "",
+    "client_age": [{ "year": "", "month": "", "date": "" }],
+    "client_profile_image": "",
+    "client_cover_image": "",
+    "client_location": "",
+    "client_url": [],
+    "client_qualifications": [],
+    "client_languages": [],
+    "client_nationality": "",
+    "client_conversation_ai": [
+      {
+        "conversation_id": "",
+        "image": "",
+        "audio": "",
+        "question": "",
+        "response": ""
+      }
+    ],
+    "organisation_recommendation": [
+      {
+        "request_id": ""
+      }
+    ]
+  }
+]

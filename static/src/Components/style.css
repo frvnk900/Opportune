@@ -1,0 +1,268 @@
+:root {
+  --primary-color: #0654a8;
+  --primary-bg-color: rgb(243, 240, 240);
+  --opp-primary-color: orangered;
+  --secondary-color: #191a1b;
+  --font-size-base: 16px;
+  --input-field-color: rgba(182, 179, 179, 0.507);
+  --input-field-color-focus: rgba(131, 129, 129, 0.507);
+  --form-input-field-width: 400px;
+  --form-input-field-hieght: 65px;
+  --web-fonts: Arial, Helvetica, sans-serif;
+  --box-shadow: 0px 4px 8px rgba(31, 30, 30, 0.418);
+  --opp-primary-color-focus: rgb(209, 62, 9);
+  --heavy-button-width: 300px;
+  --heavy-button-hieght: 70px;
+  --heavy-button-padding: 20px;
+  --field-fonts: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  --icon-size: 48px;
+}
+
+.prompt-container {
+  box-shadow: 0px 4px 8px rgba(31, 30, 30, 0.349);
+  background-color: var(--primary-bg-color);
+  display: flex;
+
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 10px;
+  position: fixed;
+  /* padding-bottom: 4px; */
+  bottom: 0;
+  left: 49%;
+  transform: translateX(-50%);
+  list-style: none;
+}
+
+.prompt-container .inputfield-box {
+  padding: 10px;
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+}
+.prompt-container .inputfield-box textarea {
+  width: var(--form-input-field-width);
+  border-radius: 10px;
+  height: 70px;
+  outline: none;
+  border: none;
+  font-family: var(--field-fonts);
+  font-size: 14.5px;
+  background-color: var(--input-field-color);
+}
+.prompt-container .inputfield-box textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.prompt-container .inputfield-box textarea::placeholder {
+  text-align: start;
+  cursor: none;
+  user-select: none;
+}
+.prompt-container .inputfield-box textarea:focus {
+  /* margin-left: 0px; */
+  background-color: var(--input-field-color-focus);
+  transition: 1ms;
+  outline: none;
+  transition: cubic-bezier(0.215, 0.61, 0.355, 1);
+  color: var(--secondary-color);
+  font-family: var(--field-fonts);
+  font-size: var(--font-size-base);
+  border: 2px solid var(--opp-primary-color);
+}
+.prompt-container li {
+  list-style: none;
+}
+.prompt-container #send-btn-field button {
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  user-select: none;
+  background: none;
+  text-align: center;
+}
+
+.prompt-container #send-btn-field img {
+  width: var(--icon-size);
+  border-radius: 45px;
+  padding: 8px;
+  background-color: var(--primary-color);
+}
+.prompt-container #send-btn-field img:disabled {
+  background-color: rgb(68, 67, 67);
+}
+
+.prompt-container .add-file-box li {
+  list-style: none;
+  user-select: none;
+}
+
+.prompt-container .add-file-box button {
+  border: none;
+  outline: none;
+  background: none;
+  text-align: center;
+}
+.prompt-container .add-file-box img {
+  width: 20px;
+  /* border-radius: 45px; */
+  padding: 7px;
+}
+.prompt-container .add-file-box #record-btn-li {
+  background-color: var(--opp-primary-color);
+  border-radius: 46px;
+  padding: 5;
+}
+.prompt-container .add-file-box #file-upload-btn input[type="file"] {
+  display: none;
+  transition: background-color 0.4s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.prompt-container .add-file-box #record-btn-li:hover {
+  transition: 1ms;
+  background-color: var(--opp-primary-color-focus);
+  transform: scale(1.2);
+  box-shadow: 0px 4px 8px rgba(31, 30, 30, 0.418);
+}
+
+.prompt-container .add-file-box #file-upload-btn:hover {
+  transition: 1ms;
+  /* background-color: var(--opp-primary-color-focus); */
+  transform: scale(1.2);
+
+  border-radius: 46px;
+  width: 400px;
+  box-shadow: 0px 4px 8px rgba(31, 30, 30, 0.418);
+} 
+
+.blurred-background {
+      position: fixed; /* Fixed position to cover the entire viewport */
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh; /* Full viewport height */
+      background-image: url('./Icons/bg.jpg'); /* Replace with your image URL */
+      background-size: cover;
+      background-position: center;
+      filter: blur(0px);  
+ 
+ 
+}
+.content{
+      position: absolute; /* Place content on top of the blurred background */
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 2rem;
+      text-align: center;
+      z-index: 1;
+    
+}
+.content #img-logo{
+  border-radius: 10px;
+  width: 324px;
+}
+.content .links{
+ 
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+     
+      color: white;
+ 
+      gap: 20px;
+}
+.content ul{
+  list-style: none;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: var(--box-shadow);
+  background-color: var(--primary-bg-color);
+}
+.content ul li p{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  user-select: none;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--primary-color);
+  padding: 10px;
+}
+.content ul li span{
+  color: var(--secondary-color);
+  font-size: 16px;
+  user-select: none;
+}
+.content #slogan-welcome{
+  position: fixed;
+      top: 30%;
+      left: 50%;
+      color: var(--opp-primary-color);
+       
+      font-style: italic;
+      font-size: 16px;
+      text-align: center;
+  transform: translate(-50%);
+}
+
+.horizontal-menu-container {
+  width: 30vw;
+  min-width: 300px;
+  background-color: var(--primary-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  box-shadow: var(--box-shadow);
+  position: fixed;
+  left: 1%;
+  top: 1%;
+  border-radius: 10px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+/* Left Logo */
+.horizontal-logo img {
+  width: 50px;
+  height: auto;
+}
+
+/* Icons in the center */
+.horizontal-links {
+  display: flex;
+  gap: 20px;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.horizontal-link-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.horizontal-link-item img {
+  width: 24px;
+  height: 24px;
+}
+
+.horizontal-link-item span {
+  margin-top: 6px;
+  opacity: 0.8;
+  color: var(--primary-color);
+}
+
+/* Right Menu Icon */
+.horizontal-menu-icon img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
